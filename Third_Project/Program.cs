@@ -14,7 +14,7 @@ namespace Third_Project
             Console.Write("Enter any Two number = ");
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            c = a + b;
+            c = a - b;
             Console.WriteLine("Sum is = " + c);
             Console.ReadLine();
 
