@@ -10,13 +10,21 @@ namespace Third_Project
     {
         static void Main(string[] args)
         {
-            int a, b, c;
-            Console.Write("Enter any Two number = ");
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
+            int a, b,c;
+
+            Console.Write("Enter first number: ");
+            if (!int.TryParse(Console.ReadLine(), out a))
+                a = 0;
+
+            Console.Write("Enter second number: ");
+            if (!int.TryParse(Console.ReadLine(), out b))
+                b = 0;
             c = a - b;
             Console.WriteLine("Sum is = " + c);
             Console.ReadLine();
+
+            
+
 
         }
     }
