@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Third_Project.Program</StartupObject>
+    <StartupObject>Third_Project.Byte</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Byte.cs" />
+    <Compile Include="DefaultValues.cs" />
+    <Compile Include="Float.cs" />
+    <Compile Include="Int.cs" />
+    <Compile Include="Percentage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadLine.cs" />
+    <Compile Include="SubjectWisemarks.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
