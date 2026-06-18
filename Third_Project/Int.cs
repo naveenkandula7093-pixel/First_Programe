@@ -14,7 +14,7 @@ namespace Third_Project
            
             Console.WriteLine("Enter the a number");
             a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(a*a);
+            Console.WriteLine(a*a*a);
             Console.ReadLine();
             
                 
